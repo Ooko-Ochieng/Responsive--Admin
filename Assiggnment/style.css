@@ -67,7 +67,7 @@
 #nav-toggle:checked + .sidebar{
     width: 70px;
 }
-}
+
 
 #nav-toggle:checked + .sidebar .sidebar-brand ,
 #nav-toggle:checked + .sidebar li{
@@ -270,9 +270,11 @@ td .status{
     width: 100%;
     overflow-x: auto;
 }
+
 .customer{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: .5rem .7rem;
 }
 .info{
